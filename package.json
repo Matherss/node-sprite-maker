@@ -1,0 +1,28 @@
+{
+  "name": "node-sprite-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matherss/node-sprite-maker.git"
+  },
+  "author": "Konyakhin Ilya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matherss/node-sprite-maker/issues"
+  },
+  "homepage": "https://github.com/Matherss/node-sprite-maker#readme",
+  "exports": {
+    ".": {
+      "default": {
+        "require": "./index.cjs",
+        "default": "./index.js"
+      }
+    }
+  },
+  "type": "module"
+}
